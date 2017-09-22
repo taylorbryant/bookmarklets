@@ -1,0 +1,21 @@
+title: Taylor Bryant - Front-end Developer
+description: A blog about web dev tools, productivity tips, and more.
+
+highlighter: rouge
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      status: "draft"
+      layout: "post"
+
+compress_html:
+  clippings: all
+  comments:  ["<!-- ", " -->"]
+  endings:   all
+
+sass:
+  style: compressed

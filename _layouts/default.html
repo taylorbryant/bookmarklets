@@ -1,0 +1,14 @@
+---
+layout: compress
+---
+
+{% include header.html %}
+  <h1 class="self-introduction">Hi, my name is <span class="blue monospace">Taylor Bryant</span>. I am a front-end developer from Memphis, TN.</h1>
+
+  <h2>Quick Reads</h2>
+    {% for post in site.posts %}
+      {% if post.status == "published" %}
+        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+      {% endif %}
+    {% endfor %}
+{% include footer.html %}
