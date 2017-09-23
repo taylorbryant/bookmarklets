@@ -529,8 +529,8 @@ html {
 }
 
 body {
-  background-color: #fbf7fe;
-  color: #282a36;
+  background-color: #fff;
+  color: #0a0a0a;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 16px;
   line-height: 1.5;
@@ -539,13 +539,13 @@ body {
 
 /* Text Elements */
 a {
-  color: #0366d6;
+  color: #0a0a0a;
   font-weight: 700;
   text-decoration: none;
 }
 
 a:hover, a:active {
-  text-decoration: underline;
+  cursor: pointer;
 }
 
 img {
@@ -661,62 +661,18 @@ strong {
 }
 
 // Home
-.avatar {
-  margin-bottom: 20px;
-  border-radius: 50%;
+.bookmarklet {
+  background-color: yellow;
+  padding: 5px;
 }
 
-.self-introduction {
-  margin: 0;
-  line-height: 1.5;
-}
-
-.card {
-  padding: 40px;
-  background-color: #282a36;
-}
-
-.card a {
-  color: #fff;
-}
-
-.card a:hover {
-  text-decoration: none;
-}
-
-.card h3 {
-  margin: 0;
-}
-
-.card + .card {
-  margin-top: 20px;
-}
-
-// Posts
-.post__date {
-  font-weight: 700;
-  margin: 0 0 10px 0;
-  text-transform: uppercase;
-}
-
-.post__title {
-  font-size: 2.25em;
-  margin: 0 0 10px 0;
-}
-
-@media only screen and (min-width: 768px) {
-  .post__title {
-    font-size: 3.75em;
-  }
-}
-
-.post__author {
-  margin: 0 0 40px 0;
+.bookmarklet:hover {
+  background-color: #0a0a0a;
+  color: white;
 }
 
 /* Footer */
 footer {
-  color: #6a737d;
   display: flex;
   font-size: 80%;
   justify-content: space-between;
@@ -728,10 +684,14 @@ footer p {
 }
 
 /* Utility Classes */
-.blue {
-  color: #0366d6;
-}
-
 .monospace {
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+}
+
+.black-border {
+  border: 5px solid #0a0a0a;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
 }

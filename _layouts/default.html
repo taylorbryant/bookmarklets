@@ -3,11 +3,11 @@ layout: compress
 ---
 
 {% include header.html %}
-  <h1 class="self-introduction"><span class="blue monospace">Bookmarklets</span></h1>
+  <h1 class="monospace">Bookmarklets</h1>
 
-    {% for post in site.posts %}
-      {% if post.status == "published" %}
-        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-      {% endif %}
-    {% endfor %}
+  {% for bookmarklet in site.data.bookmarklets %}
+    <h2><a class="bookmarklet" href="{{ bookmarklet.code }}">{{ bookmarklet.name }}</a></h2>
+  {% endfor %}
+
+  <img class="black-border margin-top-40" src="/assets/img/example.gif">
 {% include footer.html %}

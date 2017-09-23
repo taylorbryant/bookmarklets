@@ -1,8 +1,11 @@
-- name: Eric Mill
-  github: konklone
+- name: CSS Stats
+  code: javascript:location.href='http://cssstats.com/stats?url='+window.location.href+'&ua=Browser Default'
 
-- name: Parker Moore
-  github: parkr
+- name: PageSpeed Insights
+  code: javascript:location.href='https://developers.google.com/speed/pagespeed/insights/?url='+window.location.href
 
-- name: Liu Fengyun
-  github: liufengyun
+- name: Responsinator
+  code: javascript:location.href='http://www.responsinator.com/?url='+window.location.href
+
+- name: Structured Data Testing Tool
+  code: javascript:location.href='https://search.google.com/structured-data/testing-tool#url='+window.location.href
