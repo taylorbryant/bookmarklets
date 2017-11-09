@@ -20,3 +20,8 @@ javascript:location.href='http://www.responsinator.com/?url='+window.location.hr
 ```
 javascript:location.href='https://search.google.com/structured-data/testing-tool#url='+window.location.href
 ```
+
+## Wayback Machine
+```
+javascript:location.href='http://web.archive.org/web/*/'+window.location.href
+```
