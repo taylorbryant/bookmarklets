@@ -9,3 +9,6 @@
 
 - name: Structured Data Testing Tool
   code: javascript:location.href='https://search.google.com/structured-data/testing-tool#url='+window.location.href
+  
+- name: Wayback Machine
+  code: javascript:location.href='http://web.archive.org/web/*/'+window.location.href
