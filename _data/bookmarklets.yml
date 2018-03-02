@@ -2,7 +2,7 @@
   code: javascript:location.href='http://cssstats.com/stats?url='+window.location.href+'&ua=Browser Default'
 
 - name: MXToolbox DNS Lookup
-  code: javascript:location.href='https://mxtoolbox.com/SuperTool.aspx?action=a%3a'+window.location.href+'&run=toolpage'
+  code: javascript:location.href='https://mxtoolbox.com/SuperTool.aspx?action=a%3a'+window.location.hostname+'&run=toolpage'
 
 - name: PageSpeed Insights
   code: javascript:location.href='https://developers.google.com/speed/pagespeed/insights/?url='+window.location.href
