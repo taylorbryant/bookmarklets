@@ -6,6 +6,11 @@ A list of potentially useful bookmarklets
 javascript:location.href='http://cssstats.com/stats?url='+window.location.href+'&ua=Browser Default'
 ```
 
+## MXToolbox DNS Lookup
+```
+javascript:location.href='https://mxtoolbox.com/SuperTool.aspx?action=a%3a'+window.location.href+'&run=toolpage'
+```
+
 ## PageSpeed Insights
 ```
 javascript:location.href='https://developers.google.com/speed/pagespeed/insights/?url='+window.location.href
