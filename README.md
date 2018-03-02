@@ -8,7 +8,7 @@ javascript:location.href='http://cssstats.com/stats?url='+window.location.href+'
 
 ## MXToolbox DNS Lookup
 ```
-javascript:location.href='https://mxtoolbox.com/SuperTool.aspx?action=a%3a'+window.location.href+'&run=toolpage'
+javascript:location.href='https://mxtoolbox.com/SuperTool.aspx?action=a%3a'+window.location.hostname+'&run=toolpage'
 ```
 
 ## PageSpeed Insights
