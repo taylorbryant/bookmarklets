@@ -3,7 +3,7 @@ A list of potentially useful bookmarklets
 
 ## CSS Stats
 ```
-javascript:location.href='http://cssstats.com/stats?url='+window.location.href+'&ua=Browser Default'
+javascript:location.href='http://cssstats.com/stats?url='+window.location.href
 ```
 
 ## MXToolbox DNS Lookup
