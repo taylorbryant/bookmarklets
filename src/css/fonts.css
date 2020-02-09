@@ -1,3 +1,4 @@
+/* purgecss start ignore */
 @font-face {
   font-family: "Inter";
   font-style: normal;
@@ -99,3 +100,4 @@
   src: url("/fonts/Inter-BlackItalic.woff2?v=3.11") format("woff2"),
     url("/fonts/Inter-BlackItalic.woff?v=3.11") format("woff");
 }
+/* purgecss end ignore */

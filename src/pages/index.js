@@ -16,7 +16,11 @@ function Home() {
             Taylor Bryant
           </a>
         </p>
-        <img className="border-8 border-black" src="/example.gif" />
+        <img
+          alt="A screen recording of someone dragging a bookmarklet from this page to their browser's bookmarks bar"
+          className="border-8 border-black"
+          src="/example.gif"
+        />
       </header>
 
       <main className="mb-4 lg:w-1/2">
